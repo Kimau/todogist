@@ -23,29 +23,11 @@
     <br />
     <a href="https://github.com/kimau/todogist">View Demo</a>
     ·
-    <a href="https://github.com/kimau/todogist/issues">Report Bug</a>
+    <a href="https://github.com/kimau/todogist/issues">todogistrt Bug</a>
     ·
     <a href="https://github.com/kimau/todogist/issues">Request Feature</a>
   </p>
 </p>
-
-<!-- ABOUT THE PROJECT -->
-## About The Project
-
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
-
-Here's a blank template to get started:
-**To avoid retyping too much info. Do a search and replace with your text editor for the following:**
-`kimau`, `todogist`, `evilkimau`, ``, `Gist Pinboard`, `Simple Todo application built in localstorage backed by Gist`
-
-
-### Built With
-
-* []()
-* []()
-* []()
-
-
 
 <!-- GETTING STARTED -->
 ## Getting Started
@@ -82,11 +64,11 @@ Project Link: [https://github.com/kimau/todogist](https://github.com/kimau/todog
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[forks-shield]: https://img.shields.io/github/forks/kimau/repo.svg?style=for-the-badge
-[forks-url]: https://github.com/kimau/repo/network/members
-[stars-shield]: https://img.shields.io/github/stars/kimau/repo.svg?style=for-the-badge
-[stars-url]: https://github.com/kimau/repo/stargazers
-[issues-shield]: https://img.shields.io/github/issues/kimau/repo.svg?style=for-the-badge
-[issues-url]: https://github.com/kimau/repo/issues
-[license-shield]: https://img.shields.io/github/license/kimau/repo.svg?style=for-the-badge
-[license-url]: https://github.com/kimau/repo/blob/master/LICENSE.txt
+[forks-shield]: https://img.shields.io/github/forks/kimau/todogist.svg?style=for-the-badge
+[forks-url]: https://github.com/kimau/todogist/network/members
+[stars-shield]: https://img.shields.io/github/stars/kimau/todogist.svg?style=for-the-badge
+[stars-url]: https://github.com/kimau/todogist/stargazers
+[issues-shield]: https://img.shields.io/github/issues/kimau/todogist.svg?style=for-the-badge
+[issues-url]: https://github.com/kimau/todogist/issues
+[license-shield]: https://img.shields.io/github/license/kimau/todogist.svg?style=for-the-badge
+[license-url]: https://github.com/kimau/todogist/blob/master/LICENSE.txt
