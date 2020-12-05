@@ -1,3 +1,47 @@
 body {
-    background: #f3cf98;
+    background: #FFA;
+}
+
+.button {
+    display: inline-block;
+    margin: 0;
+    padding: 0.1em 0.4em;
+    background: #151;
+    color: #AFF;
+    border-radius: 0.3em;
+}
+
+#pinboard {
+    position: relative;
+    width: 90vw;
+    height: 90vh;
+    margin: auto;
+    background: #EE9;
+    overflow: scroll;
+}
+
+.card {
+    position: absolute;
+    background: #EEF;
+    margin: 0;
+    display: inline-block;
+    border-radius: 0.1em;
+    box-shadow: 0.1em 0.1em 0.3em #000A;
+    min-width: 10em;
+}
+
+.card h1 {
+    margin: 0;
+    padding: 0.2em;
+    font-size: 1.5em;
+    background: #DDF;
+    font-family: cursive;
+    text-align: center;
+}
+
+.card p {
+    padding: 0.2em;
+    background: repeating-linear-gradient(#0000 0em, #0000 1.1em, #00F3 1.19em, #0000 1.2em);
+    font-size: 1em;
+    line-height: 1.2em;
 }
