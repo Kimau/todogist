@@ -13,19 +13,17 @@
     <img src="images/logo.png" alt="Logo" width="80" height="80">
   </a>
 
-  <h3 align="center">Gist Pinboard</h3>
+  <h3 align="center">Pinboard</h3>
 
   <p align="center">
-    Simple Todo application built in localstorage backed by Gist
+    Simple Todo application built in localstorage backed by simple file
     <br />
     <a href="https://github.com/kimau/todogist"><strong>Explore the docs »</strong></a>
     <br />
     <br />
     <a href="https://github.com/kimau/todogist">View Demo</a>
-    ·
-    <a href="https://github.com/kimau/todogist/issues">todogistrt Bug</a>
-    ·
-    <a href="https://github.com/kimau/todogist/issues">Request Feature</a>
+    .
+    <a href="https://github.com/kimau/todogist/issues">Issues</a>
   </p>
 </p>
 

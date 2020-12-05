@@ -14,6 +14,14 @@ const wsock = {
     event: null
 }
 
+function encodeUri(url, data) {
+    if(typeof(data) == "string") return url + "?" + encodeURIComponent(data);
+
+    let ui = [];
+    for (const key in data) if (data.hasOwnProperty(key)) ui.push(key + "=" + encodeURIComponent(data[key]));
+    return url + "?" + ui.join("&")
+}
+
 function fetch(url, data) {
     return new Promise((resolve, reject) => {
         var req = new XMLHttpRequest();
@@ -44,54 +52,27 @@ function makeTag(tag, cn, text) {
     return el;
 }
 
+function lget(name) { let v = window.localStorage.getItem(name); try { return JSON.parse(v); } catch (error) { return v; }}
+function lset(name,value) { if(typeof(value) != "string") value = JSON.stringify(value); return window.localStorage.setItem(name, value); }
+
 ///////////////////////////////////////////////////////////////////////////////
 // Application Code
+
+function doAuth() {
+    let oAuthState = btoa(Math.random());
+    lset("authstate", oAuthState)
+    window.location = encodeUri("https://github.com/login/oauth/authorize", {
+        client_id: client.id,
+        redirect_uri: "http://localhost:8000/",
+        scope: "gist",
+        state: oAuthState
+    });
+}
 
 
 ///////////////////////////////////////////////////////////////////////////////
 // Window Events
 window.addEventListener("load", async () => {
 
-    await buildBadges();
 
-    const oldday = window.localStorage.getItem('today');
-    if(oldday != new Date().toLocaleDateString()) {
-        // new stream day
-        console.log("NEW DAY!");
-        window.localStorage.setItem('talkers', "");
-        window.localStorage.setItem('today', new Date().toLocaleDateString());
-        window.localStorage.setItem('msglog', "");
-    } else {
-        let msglogtext = window.localStorage.getItem("msglogbackup");
-        if(!msglogtext || (msglogtext.length < 10)) {
-            msglogtext = window.localStorage.getItem("msglog");
-            window.localStorage.setItem('msglogbackup', msglogtext);
-        }
-
-        const oldMsgLog = JSON.parse(msglogtext);        
-        if(Array.isArray(oldMsgLog)) for (let i = 0; i < oldMsgLog.length; i++) {
-            handleMsg(oldMsgLog[i]);
-        }
-        window.localStorage.setItem('msglogbackup', "");
-    }
-
-    if ((token == null) || (token == '') || (token == "null")) {
-        let twitchOAuthState = btoa(Math.random());
-        console.log('https://id.twitch.tv/oauth2/authorize' +
-            '?response_type=token' +
-            '&client_id=' + client_id +
-            '&redirect_uri=http%3A%2F%2Flocalhost' +
-            '&state=' + twitchOAuthState +
-            '&scope=bits:read+clips:edit+user:read:email+channel:read:subscriptions+channel:read:redemptions');
-
-        window.localStorage.setItem('token', window.prompt('Enter your OAuth Token', ''));
-    }
-
-    doChat();
-    doEvents();
-});
-
-window.addEventListener("click", (e) => { 
-    useAudio = true; 
-    mySpeak("Audio on");
 });
