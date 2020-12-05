@@ -1,17 +1,15 @@
 <!-- PROJECT SHIELDS -->
-[![Contributors][contributors-shield]][contributors-url]
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 [![MIT License][license-shield]][license-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
 
 
 
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <a href="https://github.com/github_username/todogist">
+  <a href="https://github.com/kimau/todogist">
     <img src="images/logo.png" alt="Logo" width="80" height="80">
   </a>
 
@@ -20,14 +18,14 @@
   <p align="center">
     Simple Todo application built in localstorage backed by Gist
     <br />
-    <a href="https://github.com/github_username/todogist"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/kimau/todogist"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/github_username/todogist">View Demo</a>
+    <a href="https://github.com/kimau/todogist">View Demo</a>
     ·
-    <a href="https://github.com/github_username/todogist/issues">Report Bug</a>
+    <a href="https://github.com/kimau/todogist/issues">Report Bug</a>
     ·
-    <a href="https://github.com/github_username/todogist/issues">Request Feature</a>
+    <a href="https://github.com/kimau/todogist/issues">Request Feature</a>
   </p>
 </p>
 
@@ -38,7 +36,7 @@
 
 Here's a blank template to get started:
 **To avoid retyping too much info. Do a search and replace with your text editor for the following:**
-`github_username`, `todogist`, `evilkimau`, ``, `Gist Pinboard`, `Simple Todo application built in localstorage backed by Gist`
+`kimau`, `todogist`, `evilkimau`, ``, `Gist Pinboard`, `Simple Todo application built in localstorage backed by Gist`
 
 
 ### Built With
@@ -58,7 +56,7 @@ Write this at some point
 <!-- ROADMAP -->
 ## Roadmap
 
-See the [open issues](https://github.com/github_username/todogist/issues) for a list of proposed features (and known issues).
+See the [open issues](https://github.com/kimau/todogist/issues) for a list of proposed features (and known issues).
 
 
 <!-- LICENSE -->
@@ -84,15 +82,11 @@ Project Link: [https://github.com/kimau/todogist](https://github.com/kimau/todog
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/github_username/repo.svg?style=for-the-badge
-[contributors-url]: https://github.com/github_username/repo/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/github_username/repo.svg?style=for-the-badge
-[forks-url]: https://github.com/github_username/repo/network/members
-[stars-shield]: https://img.shields.io/github/stars/github_username/repo.svg?style=for-the-badge
-[stars-url]: https://github.com/github_username/repo/stargazers
-[issues-shield]: https://img.shields.io/github/issues/github_username/repo.svg?style=for-the-badge
-[issues-url]: https://github.com/github_username/repo/issues
-[license-shield]: https://img.shields.io/github/license/github_username/repo.svg?style=for-the-badge
-[license-url]: https://github.com/github_username/repo/blob/master/LICENSE.txt
-[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/github_username
+[forks-shield]: https://img.shields.io/github/forks/kimau/repo.svg?style=for-the-badge
+[forks-url]: https://github.com/kimau/repo/network/members
+[stars-shield]: https://img.shields.io/github/stars/kimau/repo.svg?style=for-the-badge
+[stars-url]: https://github.com/kimau/repo/stargazers
+[issues-shield]: https://img.shields.io/github/issues/kimau/repo.svg?style=for-the-badge
+[issues-url]: https://github.com/kimau/repo/issues
+[license-shield]: https://img.shields.io/github/license/kimau/repo.svg?style=for-the-badge
+[license-url]: https://github.com/kimau/repo/blob/master/LICENSE.txt
